@@ -19,7 +19,7 @@ int main(void)
 	for (b = 'a'; b < 'g';)
 	{
 		putchar(b);
-	        b++;
+		b++;
 	}
 	putchar('\n');
 	return (0);
