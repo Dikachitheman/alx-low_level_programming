@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- *
  * print_last_digit - stuff
+ * Description: stuff
  * @n: stuff
  * Return: stuff
  */
