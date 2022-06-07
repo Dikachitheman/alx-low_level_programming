@@ -2,6 +2,7 @@
 
 /**
  * _islower - stuff
+ * Description: checks for lowercase
  * Return: 1 or c
  */
 
