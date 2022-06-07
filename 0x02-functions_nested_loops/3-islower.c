@@ -3,6 +3,7 @@
 /**
  * _islower - stuff @c
  * Description: checks for lowercase
+ * @c: to be checked
  * Return: 1 or c
  */
 
