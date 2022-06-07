@@ -6,16 +6,20 @@
  * Return: stuff
  */
 
-int sum;
-int i;
-
-for (i = 0; i < 1024; i++)
+int main(void)
 {
-	if ((i % 3 == 0) || (i % 5 == 0))
+	int sum;
+	int i;
+
+	sum = 0;
+
+	for (i = 0; i < 1024; i++)
 	{
-		sum = sum + 1;
+		if ((i % 3 == 0) || (i % 5 == 0))
+		{
+			sum = sum + 1;
+		}
 	}
-}
-printf("%d\n", sum);
-return (0);
+	printf("%d\n", sum);
+	return (0);
 }
