@@ -19,7 +19,7 @@ int main(void)
 		if (boolean)
 		{
 			f = n1 + n2;
-			printf(", %ld", fn);
+			printf(", %ld", f);
 			n1 = n2;
 			n2 = f;
 		}
