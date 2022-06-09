@@ -1,7 +1,9 @@
-#include "main."
+#include "main.h"
 
 /**
  * more_numbers - print numbers ...
+ * Return: stuff
+ * Description: stuff
  */
 
 void more_numbers(void)
@@ -16,8 +18,8 @@ void more_numbers(void)
 			if (b >= 10)
 			{
 				_putchar(b / 10 + '0');
-				_putchar(b % 10 + '0');
 			}
+			_putchar(b % 10 + '0');
 		}
 		_putchar('\n');
 	}
