@@ -3,6 +3,7 @@
 /**
  * puts2 - dd
  * @str - ff
+ * Description - kk
  */
 
 void puts2(char *str)
