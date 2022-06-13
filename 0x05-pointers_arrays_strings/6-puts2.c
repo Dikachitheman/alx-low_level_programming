@@ -2,7 +2,7 @@
 
 /**
  * puts2 - dd
- * @str - ff
+ * @str: ff
  * Description - kk
  */
 
