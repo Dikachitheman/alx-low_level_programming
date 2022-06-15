@@ -1,0 +1,26 @@
+#include "main.h"
+
+/**
+ * _strncat - concantenates two strings
+ * @dest: ss
+ * @src: kk
+ * @n: kk
+ * Return: kk
+ */
+
+char *_strncat(char *dest, char *src, int n)
+{
+	int i, lenght, j;
+
+	for (i = 0; dest[i] != '\0'; i++)
+	{
+		length++;
+	}
+
+	for (j = 0; src[j] != '\0' && j < n; j++)
+	{
+		dest[i + j] = src[j];
+	}
+	dest[i + j] = src[j];
+	return (dest);
+}

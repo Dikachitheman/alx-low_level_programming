@@ -2,7 +2,7 @@
 
 /**
  * _strcat - function to concatenate two strings
- * @dect: ss
+ * @dest: ss
  * @src: ss
  * Return: dd
  */
