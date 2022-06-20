@@ -6,7 +6,7 @@
  * Return: kk
  */
 
-char *strstr(char *haystack, char *needle)
+char *_strstr(char *haystack, char *needle)
 {
 	int i, j;
 
