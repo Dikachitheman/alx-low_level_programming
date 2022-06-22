@@ -11,10 +11,9 @@ int find_root(int n, int root)
 	if (root * root > n)
 		return (-1);
 
-	if (root * root == n);
-
-	root++;
-	return (finf_root(n, root));
+	if (root * root == n)
+		root++;
+	return (find_root(n, root));
 }
 
 /**
