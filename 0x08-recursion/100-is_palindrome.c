@@ -6,19 +6,12 @@
 
 /**
  * _strlen_recursion - measures a string using recursion,
-
  * rather than iteration as in _strlen. copied directly from
-
  * 0x08-recursion task 2
-
  *
-
  * @s: pointer to string to be measured
-
  *
-
  * Return: amount of bytes in string s
-
  */
 
 
@@ -38,25 +31,15 @@ int _strlen_recursion(char *s)
 
 /**
  * pali_comp - recursive helper of is_palindrome, adds second
-
  * and third variable to increment from either end of string s
-
  *
-
  * @s: string to be checked for symmetry
-
  *
-
  * @i: index forward from beginning of string
-
  *
-
  * @j: index backward from end of string
-
  *
-
  * Return: 1 if string s is palindrome, or 0 if not
-
  */
 
 
@@ -80,17 +63,11 @@ int pali_comp(char *s, int i, int j)
 
 /**
  * is_palindrome - tests if string s is a plaindrome through
-
  * a recursive helper
-
  *
-
  * @s: string to be checked for symmetry
-
  *
-
  * Return: 1 if s is palindrome, or 0 if not
-
  */
 
 
