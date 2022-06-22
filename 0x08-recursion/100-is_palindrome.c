@@ -5,7 +5,6 @@
 
 
 /**
-
  * _strlen_recursion - measures a string using recursion,
 
  * rather than iteration as in _strlen. copied directly from
@@ -38,7 +37,6 @@ int _strlen_recursion(char *s)
 
 
 /**
-
  * pali_comp - recursive helper of is_palindrome, adds second
 
  * and third variable to increment from either end of string s
@@ -81,7 +79,6 @@ int pali_comp(char *s, int i, int j)
 
 
 /**
-
  * is_palindrome - tests if string s is a plaindrome through
 
  * a recursive helper
@@ -105,7 +102,6 @@ int is_palindrome(char *s)
 
 		return (1);
 	else
-
 		return (0);
 
 }
