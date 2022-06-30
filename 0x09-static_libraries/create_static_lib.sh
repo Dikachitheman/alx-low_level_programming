@@ -1,6 +1,6 @@
 #!/bin/bash
 
-gcc -c *.c
+gcc -c -Wall -Wextra -Werror -pedantic *.c
 
 ar rc libmy.a *.o
 
